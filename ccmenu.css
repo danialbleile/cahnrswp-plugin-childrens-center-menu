@@ -1,0 +1,94 @@
+.row .column {
+	float: none !important;
+}
+
+#ccmenu nav {
+	position: relative;
+	top: 1px;
+}
+
+#ccmenu-tabs a {
+	display: inline-block;
+	margin-right: 4px;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #fff;
+	vertical-align: top;
+	padding: 0.2rem 0.75rem;
+	font-size: 0.7rem;
+	text-decoration: none;
+	background: #eee;
+	position: relative;
+	z-index: 1
+}
+
+#ccmenu-tabs a.active {
+	background: #fff;
+	z-index: 3
+}
+
+#ccmenu .ccmenu-set {
+	display: none;
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: 1rem 0;
+	position: relative;
+	z-index: 2;
+}
+
+#ccmenu .ccmenu-set.active {
+	display: block;
+}
+
+#ccmenu .ccmenu-meal {
+	width: 29%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 2%;
+}
+
+#ccmenu h4 {
+	font-size: 1rem;
+	margin: 0;
+	padding: 0 0 0.2rem;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 1rem;
+}
+
+#ccmenu ul.ccmenu-meal-item {
+	margin: 0 0 0 1rem;
+	padding: 0 0 1rem;
+	list-style-type: none;
+}
+
+
+#ccmenu ul.ccmenu-meal-item ul{
+	margin: 0;
+	padding: 0.2rem 0 0;
+	list-style-type: none;
+}
+
+#ccmenu ul.ccmenu-meal-item ul li{
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 0 0 0.4rem;
+	margin: 0 0.2rem 0 0;
+	font-size: 0.7rem;
+	list-style-type: none;
+	border-left: 1px solid #ddd;
+}
+
+#ccmenu ul.ccmenu-meal-item ul li:first-child {
+	border-left: none;
+	padding: 0;
+}
+
+#ccmenu .allergen {
+	 color: red;
+}
+
+#ccmenu .requirement {
+	color: green;
+}
+
